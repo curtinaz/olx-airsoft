@@ -24,17 +24,18 @@
 
             <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
                 <li><a href="#" class="nav-link px-2 link-dark">Buscar</a></li>
-                <!-- <li><a href="#" style="color: white" class="btn btn-primary nav-link px-2">Home</a></li> -->
                 <li><a href="#" class="nav-link px-2 link-dark">Meus anúncios</a></li>
-                <!-- <li><a href="#" class="nav-link px-2 link-dark">Ch</a></li> -->
-                <li><a href="#" class="nav-link px-2 link-dark">Notificações</a></li>
+                <li><a href="#" class="nav-link px-2 d-none d-md-block link-dark">Notificações</a></li>
+
+                <li><a href="#" class="nav-link px-2 d-block d-md-none link-dark">Login</a></li>
             </ul>
 
-            <div class="col-md-3 text-end">
+            <div class="col-md-3 text-end d-none d-md-block">
                 <button type="button" class="btn btn-outline-primary me-2">Entrar</button>
                 <button type="button" class="btn btn-primary">Anunciar</button>
             </div>
         </header>
+        
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
